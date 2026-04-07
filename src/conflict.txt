@@ -1,0 +1,3 @@
+release-channel=stable
+owner=gh-pull-requests.nvim
+purpose=screenshot-fixture

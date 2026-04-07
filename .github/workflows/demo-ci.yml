@@ -1,0 +1,39 @@
+name: Demo CI
+
+on:
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  fixture-check:
+    name: Fixture check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Print fixture context
+        run: |
+          echo "Repository: $GITHUB_REPOSITORY"
+          echo "Ref: $GITHUB_REF"
+          find . -maxdepth 3 -type f | sort
+
+      - name: Simulate running check
+        if: ${{ hashFiles('demo/slow-check') != '' }}
+        run: |
+          echo "Slow-check fixture enabled."
+          sleep 120
+
+      - name: Simulate failing check
+        if: ${{ hashFiles('demo/fail-check') != '' }}
+        run: |
+          echo "::error::Fail-check fixture enabled."
+          exit 1
+
+      - name: Validate fixture files
+        run: |
+          test -f README.md
+          test -f src/app.lua
+          test -f src/review_target.lua
