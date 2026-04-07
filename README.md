@@ -26,3 +26,4 @@ repository is designed to be public fixture content.
 - `demo/slow-check` makes the demo CI wait before completing.
 - `src/conflict.txt` is reserved for merge-conflict screenshots.
 - `assets/demo.svg` is reserved for non-text preview screenshots.
+- Draft PRs are intentionally left open to show the `DRAFT` state.
