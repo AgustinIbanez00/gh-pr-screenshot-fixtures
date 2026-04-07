@@ -26,3 +26,8 @@ repository is designed to be public fixture content.
 - `demo/slow-check` makes the demo CI wait before completing.
 - `src/conflict.txt` is reserved for merge-conflict screenshots.
 - `assets/demo.svg` is reserved for non-text preview screenshots.
+
+## Overview Activity Scenario
+
+This branch expands the README and overview document so the overview panel can
+show a meaningful Summary pane and a populated Activity feed.
