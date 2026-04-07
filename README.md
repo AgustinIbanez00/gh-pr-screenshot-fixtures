@@ -27,3 +27,14 @@ repository is designed to be public fixture content.
 - `src/conflict.txt` is reserved for merge-conflict screenshots.
 - `assets/demo.svg` is reserved for non-text preview screenshots.
 - Draft PRs are intentionally left open to show the `DRAFT` state.
+
+## Open Fixture PRs
+
+- #1: Overview activity, summary, docs, and activity comments.
+- #2: Review workspace with renamed, modified, and added files.
+- #3: Intentionally failing check.
+- #4: Slow check fixture; push an empty commit to re-trigger a running state.
+- #5: Real merge conflict fixture.
+- #6: Inline review comments and nested reply thread.
+- #7: Non-text/image-like SVG asset preview.
+- #8: Draft PR state.
