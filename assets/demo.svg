@@ -4,8 +4,9 @@
   <rect width="960" height="540" fill="#1f2335"/>
   <rect x="64" y="64" width="832" height="412" rx="32" fill="#24283b" stroke="#7aa2f7" stroke-width="6"/>
   <text x="96" y="160" fill="#c0caf5" font-family="monospace" font-size="44">gh-pull-requests.nvim</text>
-  <text x="96" y="232" fill="#9ece6a" font-family="monospace" font-size="30">Non-text preview fixture</text>
-  <text x="96" y="304" fill="#bb9af7" font-family="monospace" font-size="26">assets/demo.svg</text>
-  <circle cx="780" cy="310" r="82" fill="#f7768e"/>
-  <circle cx="720" cy="250" r="48" fill="#e0af68"/>
+  <text x="96" y="232" fill="#9ece6a" font-family="monospace" font-size="30">Updated non-text preview fixture</text>
+  <text x="96" y="304" fill="#bb9af7" font-family="monospace" font-size="26">assets/demo.svg changed in PR</text>
+  <circle cx="780" cy="310" r="82" fill="#7dcfff"/>
+  <circle cx="720" cy="250" r="48" fill="#ff9e64"/>
+  <rect x="676" y="354" width="188" height="24" rx="12" fill="#9ece6a"/>
 </svg>
