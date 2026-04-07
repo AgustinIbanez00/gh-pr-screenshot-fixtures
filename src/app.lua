@@ -15,4 +15,12 @@ function M.format_badge(name, state)
   return string.format("[%s:%s]", name, state)
 end
 
+function M.activity_items()
+  return {
+    "summary-ready",
+    "docs-updated",
+    "review-requested",
+  }
+end
+
 return M

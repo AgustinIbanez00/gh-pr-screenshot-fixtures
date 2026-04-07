@@ -27,6 +27,11 @@ repository is designed to be public fixture content.
 - `src/conflict.txt` is reserved for merge-conflict screenshots.
 - `assets/demo.svg` is reserved for non-text preview screenshots.
 
+## Overview Activity Scenario
+
+This branch expands the README and overview document so the overview panel can
+show a meaningful Summary pane and a populated Activity feed.
+
 ## Open Fixture PRs
 
 - #1: Overview activity, summary, docs, and activity comments.
