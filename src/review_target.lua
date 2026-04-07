@@ -27,7 +27,9 @@ function M.render_threads(threads)
 
   for _, thread in ipairs(threads or {}) do
     local marker = thread.resolved and "resolved" or "open"
-    table.insert(lines, string.format("- %s: %s", marker, thread.body))
+    local severity = thread.severity or "info"
+    local prefix = string.format("%s/%s", marker, severity)
+    table.insert(lines, string.format("- %s: %s", prefix, thread.body))
   end
 
   return lines
